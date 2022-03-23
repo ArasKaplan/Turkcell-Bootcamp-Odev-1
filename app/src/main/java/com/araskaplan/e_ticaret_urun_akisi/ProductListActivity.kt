@@ -85,6 +85,7 @@ class ProductListActivity : AppCompatActivity() {
             Product("Hayat","0.5 Litre",3.15,"Description",R.drawable.su2,"Su"),
             Product("Erikli","0.5 Litre",3.49,"Description",R.drawable.su3,"Su"),
             Product("Hamidiye","0.5 Litre",2.95,"Description",R.drawable.su4,"Su"),
+            Product("Saka","0.5 Litre",2.95,"Description",R.drawable.su4,"Su"),
             Product("Pepsi","Pepsi Max 0.25 Litre",4.95,"Description",R.drawable.pepsi,"Gazli Icecek"),
             Product("Coca-Cola","Coca Cola Klasik 0.25 Litre",7.19,"Description",R.drawable.cocacola,"Gazli Icecek"),
             Product("Kizilay","6 x 0.3 Litre",9.26,"Description",R.drawable.kizilay,"Maden Suyu"),

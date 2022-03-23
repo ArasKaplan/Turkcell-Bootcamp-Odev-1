@@ -66,7 +66,7 @@ class ProductListActivity : AppCompatActivity() {
     }
 
     fun injectCatList():ArrayList<String>{
-        return arrayListOf<String>("Su","Gazli Icecek","Maden Suyu","Meyve Suyu","Ayran","Kahve")
+        return arrayListOf<String>("Su","Gazli Icecek","Maden Suyu","Meyve Suyu","Ayran","Kahve","Yakinda","Favoriler")
     }
     fun configureBackButton(){
         binding.prodListBackButton.setOnClickListener {

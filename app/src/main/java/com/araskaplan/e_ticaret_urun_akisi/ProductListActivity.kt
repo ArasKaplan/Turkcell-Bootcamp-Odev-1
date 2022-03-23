@@ -66,7 +66,7 @@ class ProductListActivity : AppCompatActivity() {
     }
 
     fun injectCatList():ArrayList<String>{
-        return arrayListOf<String>("Su","Gazli Icecek","Maden Suyu","Meyve Suyu","Ayran","Kahve","Meyve Suyu")
+        return arrayListOf<String>("Su","Gazli Icecek","Maden Suyu","Meyve Suyu","Ayran","Kahve")
     }
     fun configureBackButton(){
         binding.prodListBackButton.setOnClickListener {
@@ -81,10 +81,18 @@ class ProductListActivity : AppCompatActivity() {
     }
     fun injectProds():ArrayList<Product>{
         return arrayListOf<Product>(
-            Product("Kuzeyden","0.5 Litre",12.0,"Basketbol Milli Takimlar ve Voleybol Milli Takimlar Resmi Su Sponsoru",R.drawable.su1,"Su"),
-            Product("Marka","Urun Adi",12.0,"D",R.drawable.su2,"Maden Suyu"),
-            Product("Marka","Urun Adi",12.0,"D",R.drawable.su3,"Ayran"),
-            Product("Marka","Urun Adi",12.0,"D",R.drawable.su4,"Meyve Suyu")
+            Product("Kuzeyden","0.5 Litre",2.85,"Basketbol Milli Takimlar ve Voleybol Milli Takimlar Resmi Su Sponsoru",R.drawable.su1,"Su"),
+            Product("Hayat","0.5 Litre",3.15,"Description",R.drawable.su2,"Su"),
+            Product("Erikli","0.5 Litre",3.49,"Description",R.drawable.su3,"Su"),
+            Product("Hamidiye","0.5 Litre",2.95,"Description",R.drawable.su4,"Su"),
+            Product("Pepsi","Pepsi Max 0.25 Litre",4.95,"Description",R.drawable.pepsi,"Gazli Icecek"),
+            Product("Coca-Cola","Coca Cola Klasik 0.25 Litre",7.19,"Description",R.drawable.cocacola,"Gazli Icecek"),
+            Product("Kizilay","6 x 0.3 Litre",9.26,"Description",R.drawable.kizilay,"Maden Suyu"),
+            Product("Sirma","6 x 0.3 Litre",12.75,"Description",R.drawable.sirma,"Maden Suyu"),
+            Product("Juss","Visne 1 Litre",8.95,"Description",R.drawable.juss,"Meyve Suyu"),
+            Product("Eker","1 Litre",10.59,"Description",R.drawable.eker,"Ayran"),
+            Product("Sutas","250 mL",4.21,"Description",R.drawable.sutas,"Ayran"),
+            Product("Nescafe","Black Roast 250 mL",13.15,"Description",R.drawable.nescafe,"Kahve"),
         )
 
     }

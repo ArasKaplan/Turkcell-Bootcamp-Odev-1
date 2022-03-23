@@ -3,6 +3,7 @@ package com.araskaplan.e_ticaret_urun_akisi
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import com.araskaplan.e_ticaret_urun_akisi.databinding.ActivityProductDetailsBinding
 
 
@@ -39,6 +40,7 @@ class ProductDetailsActivity : AppCompatActivity() {
         binding.prodeuctDetailsActButton.setOnClickListener {
             sum+=intent.getDoubleExtra("price",0.1)
             prepareCartPrice()
+            Toast.makeText(this,"Ürün Başarıyla Eklendi",Toast.LENGTH_SHORT).show()
         }
     }
     fun prepareCartPrice(){

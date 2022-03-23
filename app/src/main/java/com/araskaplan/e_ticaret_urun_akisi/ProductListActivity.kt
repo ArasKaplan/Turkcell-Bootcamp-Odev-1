@@ -24,7 +24,7 @@ class ProductListActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         prepareData()
-        isLoggedIn=true
+        //isLoggedIn=true
         prepComponents()
     }
 

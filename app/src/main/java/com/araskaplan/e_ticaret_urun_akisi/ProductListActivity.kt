@@ -62,7 +62,7 @@ class ProductListActivity : AppCompatActivity() {
         }
     }
     fun updateCartPrice(){
-        binding.productListCartprice.text=sum.toString()
+        binding.productListCartprice.text="₺${sum.toString()}"
     }
 
     fun injectCatList():ArrayList<String>{

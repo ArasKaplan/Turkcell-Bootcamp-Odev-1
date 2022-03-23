@@ -19,9 +19,9 @@ class CardAdapter(var list: ArrayList<Product>,var isLogged:Boolean,var sumPrice
     override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
         holder.bindData(list[position])
         holder.prodButton.setOnClickListener {
-            Toast.makeText(holder.itemView.context,"DENEME",Toast.LENGTH_SHORT).show()
+            Toast.makeText(holder.itemView.context,"Ürün Başarıyla Eklendi",Toast.LENGTH_SHORT).show()
             sum+=list[position].price
-            sumPriceTextView.text=sum.toString()
+            sumPriceTextView.text="₺${sum.toString()}"
         }
         holder.prodImage.setOnClickListener {
             var intent=Intent(holder.itemView.context,ProductDetailsActivity::class.java)

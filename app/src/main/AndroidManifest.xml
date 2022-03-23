@@ -17,6 +17,7 @@
             android:exported="true" />
         <activity
             android:name=".LogInActivity"
+            android:theme="@style/Theme.EticaretUrunAkisi.LogInAct"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

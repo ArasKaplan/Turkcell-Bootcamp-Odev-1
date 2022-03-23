@@ -20,7 +20,7 @@ class Category_Rec_Adapter(var list:ArrayList<String>,var pList:ArrayList<Produc
     override fun onBindViewHolder(holder: CatViewHolder, position: Int) {
         holder.bindData(list.get(position))
         holder.catName.background=AppCompatResources.getDrawable(holder.itemView.context,R.drawable.category_round_corner_shape)
-        holder.catName.setTextColor(holder.itemView.context.resources.getColor(R.color.black))
+        holder.catName.setTextColor(holder.itemView.context.resources.getColor(R.color.catRecVnoselect))
 
         if (selectedItemPos==position){
             holder.catName.setTextColor(holder.itemView.context.resources.getColor(R.color.colorSecondary))

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipToPadding="false"
     tools:context=".ProductDetailsActivity">
 
     <TextView
@@ -155,16 +156,20 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/prodeuct_details_act_button"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="180dp"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="100dp"
-        android:background="@drawable/add_button_round_corner_3px"
+        android:background="@drawable/card_prod_shape"
+        android:elevation="50dp"
+        android:padding="10dp"
         android:text="+"
         android:textColor="@color/colorTertiary"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prodeuct_details_act_details" />
 
     <TextView
         android:id="@+id/textView8"

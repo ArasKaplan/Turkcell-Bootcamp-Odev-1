@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/add_button_round_corner_3px.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/card_prod_shape.xml" value="0.31614583333333335" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/category_rec_view_element.xml" value="0.31614583333333335" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/category_round_corner_shape.xml" value="0.31614583333333335" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/category_selected_round_corner_shape.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/rounded_green_bg.xml" value="0.31614583333333335" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/drawable/textview_round_corner_shape.xml" value="0.328125" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/activity_main.xml" value="0.2859375" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/activity_product_details.xml" value="0.4" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/activity_product_list.xml" value="0.4" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/category_rec_view_element.xml" value="0.3" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/logIn_Act.xml" value="0.176" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/login_act.xml" value="0.264" />
+        <entry key="..\:/Users/Aras/Desktop/AndroidApps/ETicaretUrunAkisi/app/src/main/res/layout/product_card.xml" value="0.6" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
